@@ -27,7 +27,6 @@ class Customer
     end
 
     def waiters
-        meals = self.meals
         meals.map { |meal| meal.waiter }
     end
 end
